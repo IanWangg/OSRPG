@@ -1,0 +1,730 @@
+2021-07-03 21:51:29.916915 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 0 finished
+---------------------------------  ---------------
+replay_buffer/size                 11000
+trainer/QF Loss                        1.10959
+trainer/Policy Loss                    3.68457e-05
+trainer/Raw Policy Loss                3.68457e-05
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            -5.23885e-05
+trainer/Q Predictions Std              0.000416154
+trainer/Q Predictions Max              0.0019435
+trainer/Q Predictions Min             -0.00119711
+trainer/Q Targets Mean                -0.0672992
+trainer/Q Targets Std                  0.0916525
+trainer/Q Targets Max                  0.131198
+trainer/Q Targets Min                 -0.342056
+trainer/Bellman Errors Mean            0.0129026
+trainer/Bellman Errors Std             0.0229207
+trainer/Bellman Errors Max             0.117132
+trainer/Bellman Errors Min             2.44976e-07
+trainer/Policy Action Mean             0.000659083
+trainer/Policy Action Std              0.00169255
+trainer/Policy Action Max              0.00597864
+trainer/Policy Action Min             -0.00459577
+exploration/num steps total        11000
+exploration/num paths total          582
+exploration/path length Mean          19.2308
+exploration/path length Std           11.2243
+exploration/path length Max           76
+exploration/path length Min            8
+exploration/Rewards Mean               0.772874
+exploration/Rewards Std                0.595053
+exploration/Rewards Max                2.79269
+exploration/Rewards Min               -1.70111
+exploration/Returns Mean              14.863
+exploration/Returns Std               18.303
+exploration/Returns Max              120.452
+exploration/Returns Min                2.81513
+exploration/Actions Mean              -0.00502916
+exploration/Actions Std                0.50096
+exploration/Actions Max                1
+exploration/Actions Min               -1
+exploration/Num Paths                 52
+exploration/Average Returns           14.863
+evaluation/num steps total           871
+evaluation/num paths total             6
+evaluation/path length Mean          145.167
+evaluation/path length Std            11.553
+evaluation/path length Max           160
+evaluation/path length Min           127
+evaluation/Rewards Mean                0.971613
+evaluation/Rewards Std                 0.0852323
+evaluation/Rewards Max                 1.25509
+evaluation/Rewards Min                 0.653801
+evaluation/Returns Mean              141.046
+evaluation/Returns Std                18.6897
+evaluation/Returns Max               170.806
+evaluation/Returns Min               119.187
+evaluation/Actions Mean                0.000196207
+evaluation/Actions Std                 0.000254398
+evaluation/Actions Max                 0.00118531
+evaluation/Actions Min                -0.000359763
+evaluation/Num Paths                   6
+evaluation/Average Returns           141.046
+time/data storing (s)                  0.00298013
+time/evaluation sampling (s)           0.334654
+time/exploration sampling (s)          0.346676
+time/logging (s)                       0.00359165
+time/saving (s)                        0.00241005
+time/training (s)                      5.99852
+time/epoch (s)                         6.68883
+time/total (s)                        12.8405
+Epoch                                  0
+---------------------------------  ---------------
+2021-07-03 21:51:36.523964 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 1 finished
+---------------------------------  ---------------
+replay_buffer/size                 12000
+trainer/QF Loss                        0.00898958
+trainer/Policy Loss                   -5.33281
+trainer/Raw Policy Loss               -5.33281
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean             4.51848
+trainer/Q Predictions Std              2.74149
+trainer/Q Predictions Max             12.7154
+trainer/Q Predictions Min             -3.33672
+trainer/Q Targets Mean                 4.59941
+trainer/Q Targets Std                  2.65506
+trainer/Q Targets Max                 12.6408
+trainer/Q Targets Min                 -3.29123
+trainer/Bellman Errors Mean            0.198403
+trainer/Bellman Errors Std             0.565167
+trainer/Bellman Errors Max             5.09381
+trainer/Bellman Errors Min             2.65634e-06
+trainer/Policy Action Mean             0.999962
+trainer/Policy Action Std              0.000108823
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.998465
+exploration/num steps total        12000
+exploration/num paths total          624
+exploration/path length Mean          23.8095
+exploration/path length Std            2.86388
+exploration/path length Max           39
+exploration/path length Min           22
+exploration/Rewards Mean               1.73335
+exploration/Rewards Std                0.467877
+exploration/Rewards Max                2.99828
+exploration/Rewards Min                1.00553
+exploration/Returns Mean              41.2702
+exploration/Returns Std                4.61629
+exploration/Returns Max               67.1107
+exploration/Returns Min               37.8397
+exploration/Actions Mean               0.823674
+exploration/Actions Std                0.283525
+exploration/Actions Max                1
+exploration/Actions Min               -1
+exploration/Num Paths                 42
+exploration/Average Returns           41.2702
+evaluation/num steps total          1871
+evaluation/num paths total            51
+evaluation/path length Mean           22.2222
+evaluation/path length Std             0.511594
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.75641
+evaluation/Rewards Std                 0.461843
+evaluation/Rewards Max                 2.40927
+evaluation/Rewards Min                 1.00606
+evaluation/Returns Mean               39.0313
+evaluation/Returns Std                 0.815312
+evaluation/Returns Max                40.5178
+evaluation/Returns Min                36.9322
+evaluation/Actions Mean                0.999792
+evaluation/Actions Std                 0.000436389
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.99735
+evaluation/Num Paths                  45
+evaluation/Average Returns            39.0313
+time/data storing (s)                  0.00334283
+time/evaluation sampling (s)           0.363042
+time/exploration sampling (s)          0.349488
+time/logging (s)                       0.00392946
+time/saving (s)                        0.00143911
+time/training (s)                      5.88394
+time/epoch (s)                         6.60518
+time/total (s)                        19.4476
+Epoch                                  1
+---------------------------------  ---------------
+2021-07-03 21:51:43.044038 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 2 finished
+---------------------------------  ---------------
+replay_buffer/size                 13000
+trainer/QF Loss                        0.0031614
+trainer/Policy Loss                  -12.7137
+trainer/Raw Policy Loss              -12.7137
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            11.231
+trainer/Q Predictions Std              4.5203
+trainer/Q Predictions Max             23.4155
+trainer/Q Predictions Min             -2.6888
+trainer/Q Targets Mean                11.1398
+trainer/Q Targets Std                  4.76067
+trainer/Q Targets Max                 21.2052
+trainer/Q Targets Min                 -3.84847
+trainer/Bellman Errors Mean            2.3668
+trainer/Bellman Errors Std            14.3518
+trainer/Bellman Errors Max           190.013
+trainer/Bellman Errors Min             1.48444e-07
+trainer/Policy Action Mean             0.999994
+trainer/Policy Action Std              1.6284e-05
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.999867
+exploration/num steps total        13000
+exploration/num paths total          664
+exploration/path length Mean          25
+exploration/path length Std            4.44972
+exploration/path length Max           39
+exploration/path length Min           11
+exploration/Rewards Mean               1.72011
+exploration/Rewards Std                0.453012
+exploration/Rewards Max                2.48957
+exploration/Rewards Min                1.00241
+exploration/Returns Mean              43.0028
+exploration/Returns Std                7.6497
+exploration/Returns Max               67.2434
+exploration/Returns Min               15.0603
+exploration/Actions Mean               0.766099
+exploration/Actions Std                0.333668
+exploration/Actions Max                1
+exploration/Actions Min               -0.884864
+exploration/Num Paths                 40
+exploration/Average Returns           43.0028
+evaluation/num steps total          2864
+evaluation/num paths total            96
+evaluation/path length Mean           22.0667
+evaluation/path length Std             0.489898
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.75592
+evaluation/Rewards Std                 0.46297
+evaluation/Rewards Max                 2.4088
+evaluation/Rewards Min                 1.00615
+evaluation/Returns Mean               38.7474
+evaluation/Returns Std                 0.790426
+evaluation/Returns Max                40.4536
+evaluation/Returns Min                36.9684
+evaluation/Actions Mean                0.999981
+evaluation/Actions Std                 3.94875e-05
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.999763
+evaluation/Num Paths                  45
+evaluation/Average Returns            38.7474
+time/data storing (s)                  0.00328494
+time/evaluation sampling (s)           0.352657
+time/exploration sampling (s)          0.349167
+time/logging (s)                       0.00382348
+time/saving (s)                        0.00135671
+time/training (s)                      5.80808
+time/epoch (s)                         6.51836
+time/total (s)                        25.9672
+Epoch                                  2
+---------------------------------  ---------------
+2021-07-03 21:51:49.601249 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 3 finished
+---------------------------------  ---------------
+replay_buffer/size                 14000
+trainer/QF Loss                        0.00397934
+trainer/Policy Loss                  -22.0149
+trainer/Raw Policy Loss              -22.0149
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            20.3275
+trainer/Q Predictions Std              6.5908
+trainer/Q Predictions Max             29.1805
+trainer/Q Predictions Min              0.186697
+trainer/Q Targets Mean                20.4788
+trainer/Q Targets Std                  6.88155
+trainer/Q Targets Max                 28.727
+trainer/Q Targets Min                 -0.062375
+trainer/Bellman Errors Mean            2.49176
+trainer/Bellman Errors Std            13.8352
+trainer/Bellman Errors Max           174.899
+trainer/Bellman Errors Min             4.81123e-08
+trainer/Policy Action Mean             0.999998
+trainer/Policy Action Std              6.21854e-06
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.99995
+exploration/num steps total        14000
+exploration/num paths total          706
+exploration/path length Mean          23.8095
+exploration/path length Std            4.80693
+exploration/path length Max           37
+exploration/path length Min            1
+exploration/Rewards Mean               1.72703
+exploration/Rewards Std                0.475233
+exploration/Rewards Max                2.65217
+exploration/Rewards Min                1.00529
+exploration/Returns Mean              41.1199
+exploration/Returns Std                8.2217
+exploration/Returns Max               63.6126
+exploration/Returns Min                1.01666
+exploration/Actions Mean               0.791516
+exploration/Actions Std                0.30248
+exploration/Actions Max                1
+exploration/Actions Min               -0.752695
+exploration/Num Paths                 42
+exploration/Average Returns           41.1199
+evaluation/num steps total          3861
+evaluation/num paths total           141
+evaluation/path length Mean           22.1556
+evaluation/path length Std             0.469305
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.75551
+evaluation/Rewards Std                 0.462465
+evaluation/Rewards Max                 2.40754
+evaluation/Rewards Min                 1.00783
+evaluation/Returns Mean               38.8942
+evaluation/Returns Std                 0.792274
+evaluation/Returns Max                40.5534
+evaluation/Returns Min                36.9841
+evaluation/Actions Mean                0.999995
+evaluation/Actions Std                 9.51289e-06
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.99995
+evaluation/Num Paths                  45
+evaluation/Average Returns            38.8942
+time/data storing (s)                  0.00332807
+time/evaluation sampling (s)           0.352819
+time/exploration sampling (s)          0.349257
+time/logging (s)                       0.00388549
+time/saving (s)                        0.00134983
+time/training (s)                      5.84501
+time/epoch (s)                         6.55565
+time/total (s)                        32.5242
+Epoch                                  3
+---------------------------------  ---------------
+2021-07-03 21:51:56.211900 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 4 finished
+---------------------------------  ---------------
+replay_buffer/size                 15000
+trainer/QF Loss                        0.00170123
+trainer/Policy Loss                  -27.9276
+trainer/Raw Policy Loss              -27.9276
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            26.2249
+trainer/Q Predictions Std              9.51591
+trainer/Q Predictions Max             37.2649
+trainer/Q Predictions Min             -2.78119
+trainer/Q Targets Mean                26.4652
+trainer/Q Targets Std                  9.52084
+trainer/Q Targets Max                 37.0347
+trainer/Q Targets Min                 -0.909675
+trainer/Bellman Errors Mean            1.64911
+trainer/Bellman Errors Std             6.54597
+trainer/Bellman Errors Max            87.8117
+trainer/Bellman Errors Min             3.26947e-06
+trainer/Policy Action Mean             0.999999
+trainer/Policy Action Std              2.99844e-06
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.999968
+exploration/num steps total        15000
+exploration/num paths total          746
+exploration/path length Mean          25
+exploration/path length Std            4.15933
+exploration/path length Max           45
+exploration/path length Min           21
+exploration/Rewards Mean               1.70838
+exploration/Rewards Std                0.479294
+exploration/Rewards Max                2.64155
+exploration/Rewards Min                0.902521
+exploration/Returns Mean              42.7096
+exploration/Returns Std                4.88011
+exploration/Returns Max               62.3814
+exploration/Returns Min               36.8768
+exploration/Actions Mean               0.781645
+exploration/Actions Std                0.319441
+exploration/Actions Max                1
+exploration/Actions Min               -1
+exploration/Num Paths                 40
+exploration/Average Returns           42.7096
+evaluation/num steps total          4853
+evaluation/num paths total           186
+evaluation/path length Mean           22.0444
+evaluation/path length Std             0.556
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.7562
+evaluation/Rewards Std                 0.464324
+evaluation/Rewards Max                 2.41044
+evaluation/Rewards Min                 1.00592
+evaluation/Returns Mean               38.7146
+evaluation/Returns Std                 0.921281
+evaluation/Returns Max                40.3692
+evaluation/Returns Min                36.8414
+evaluation/Actions Mean                0.999998
+evaluation/Actions Std                 4.93692e-06
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.99997
+evaluation/Num Paths                  45
+evaluation/Average Returns            38.7146
+time/data storing (s)                  0.003327
+time/evaluation sampling (s)           0.351892
+time/exploration sampling (s)          0.350292
+time/logging (s)                       0.0039455
+time/saving (s)                        0.00140083
+time/training (s)                      5.89822
+time/epoch (s)                         6.60907
+time/total (s)                        39.1346
+Epoch                                  4
+---------------------------------  ---------------
+2021-07-03 21:52:02.749044 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 5 finished
+---------------------------------  ---------------
+replay_buffer/size                 16000
+trainer/QF Loss                        0.00121604
+trainer/Policy Loss                  -30.2128
+trainer/Raw Policy Loss              -30.2128
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            28.6062
+trainer/Q Predictions Std             12.8398
+trainer/Q Predictions Max             48.9047
+trainer/Q Predictions Min             -2.95743
+trainer/Q Targets Mean                28.6487
+trainer/Q Targets Std                 12.9319
+trainer/Q Targets Max                 47.3971
+trainer/Q Targets Min                 -0.956325
+trainer/Bellman Errors Mean            3.11694
+trainer/Bellman Errors Std             8.46287
+trainer/Bellman Errors Max            67.3135
+trainer/Bellman Errors Min             0.000125824
+trainer/Policy Action Mean             0.999999
+trainer/Policy Action Std              1.62538e-06
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.999986
+exploration/num steps total        16000
+exploration/num paths total          787
+exploration/path length Mean          24.3902
+exploration/path length Std            2.87867
+exploration/path length Max           33
+exploration/path length Min           17
+exploration/Rewards Mean               1.72481
+exploration/Rewards Std                0.45802
+exploration/Rewards Max                2.57797
+exploration/Rewards Min                0.966888
+exploration/Returns Mean              42.0685
+exploration/Returns Std                4.49016
+exploration/Returns Max               54.3373
+exploration/Returns Min               28.2621
+exploration/Actions Mean               0.769774
+exploration/Actions Std                0.327646
+exploration/Actions Max                1
+exploration/Actions Min               -0.894767
+exploration/Num Paths                 41
+exploration/Average Returns           42.0685
+evaluation/num steps total          5831
+evaluation/num paths total           230
+evaluation/path length Mean           22.2273
+evaluation/path length Std             0.597861
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.75744
+evaluation/Rewards Std                 0.461056
+evaluation/Rewards Max                 2.41121
+evaluation/Rewards Min                 1.01045
+evaluation/Returns Mean               39.0631
+evaluation/Returns Std                 0.990059
+evaluation/Returns Max                40.5424
+evaluation/Returns Min                36.8209
+evaluation/Actions Mean                0.999999
+evaluation/Actions Std                 2.32736e-06
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.999983
+evaluation/Num Paths                  44
+evaluation/Average Returns            39.0631
+time/data storing (s)                  0.00333077
+time/evaluation sampling (s)           0.355673
+time/exploration sampling (s)          0.348487
+time/logging (s)                       0.00448231
+time/saving (s)                        0.00191666
+time/training (s)                      5.82212
+time/epoch (s)                         6.53601
+time/total (s)                        45.672
+Epoch                                  5
+---------------------------------  ---------------
+2021-07-03 21:52:09.319690 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 6 finished
+---------------------------------  ---------------
+replay_buffer/size                 17000
+trainer/QF Loss                        0.00132291
+trainer/Policy Loss                  -30.4152
+trainer/Raw Policy Loss              -30.4152
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            29.0992
+trainer/Q Predictions Std             13.2635
+trainer/Q Predictions Max             57.3427
+trainer/Q Predictions Min             -3.60843
+trainer/Q Targets Mean                29.6476
+trainer/Q Targets Std                 13.4345
+trainer/Q Targets Max                 58.9194
+trainer/Q Targets Min                 -1.23716
+trainer/Bellman Errors Mean            3.17116
+trainer/Bellman Errors Std            14.9533
+trainer/Bellman Errors Max           224.767
+trainer/Bellman Errors Min             1.32717e-05
+trainer/Policy Action Mean             1
+trainer/Policy Action Std              7.5036e-07
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.999993
+exploration/num steps total        17000
+exploration/num paths total          830
+exploration/path length Mean          23.2558
+exploration/path length Std            2.98128
+exploration/path length Max           29
+exploration/path length Min            7
+exploration/Rewards Mean               1.72368
+exploration/Rewards Std                0.462366
+exploration/Rewards Max                2.49603
+exploration/Rewards Min                1.0069
+exploration/Returns Mean              40.0855
+exploration/Returns Std                5.5181
+exploration/Returns Max               48.2733
+exploration/Returns Min                7.38182
+exploration/Actions Mean               0.819136
+exploration/Actions Std                0.274681
+exploration/Actions Max                1
+exploration/Actions Min               -0.320718
+exploration/Num Paths                 43
+exploration/Average Returns           40.0855
+evaluation/num steps total          6828
+evaluation/num paths total           275
+evaluation/path length Mean           22.1556
+evaluation/path length Std             0.594626
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.75834
+evaluation/Rewards Std                 0.462132
+evaluation/Rewards Max                 2.41164
+evaluation/Rewards Min                 1.00837
+evaluation/Returns Mean               38.957
+evaluation/Returns Std                 0.941592
+evaluation/Returns Max                40.4383
+evaluation/Returns Min                36.9322
+evaluation/Actions Mean                1
+evaluation/Actions Std                 1.03462e-06
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.999992
+evaluation/Num Paths                  45
+evaluation/Average Returns            38.957
+time/data storing (s)                  0.00331424
+time/evaluation sampling (s)           0.353843
+time/exploration sampling (s)          0.349497
+time/logging (s)                       0.00395744
+time/saving (s)                        0.00138265
+time/training (s)                      5.85608
+time/epoch (s)                         6.56807
+time/total (s)                        52.2418
+Epoch                                  6
+---------------------------------  ---------------
+2021-07-03 21:52:16.006815 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 7 finished
+---------------------------------  ---------------
+replay_buffer/size                 18000
+trainer/QF Loss                        0.00109432
+trainer/Policy Loss                  -28.9804
+trainer/Raw Policy Loss              -28.9804
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            28.5882
+trainer/Q Predictions Std             12.3868
+trainer/Q Predictions Max             57.5767
+trainer/Q Predictions Min             -4.91962
+trainer/Q Targets Mean                29.0147
+trainer/Q Targets Std                 12.6802
+trainer/Q Targets Max                 56.3546
+trainer/Q Targets Min                 -0.854643
+trainer/Bellman Errors Mean            3.31909
+trainer/Bellman Errors Std            14.0536
+trainer/Bellman Errors Max           168.496
+trainer/Bellman Errors Min             2.10247e-05
+trainer/Policy Action Mean             1
+trainer/Policy Action Std              4.13686e-07
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.999994
+exploration/num steps total        18000
+exploration/num paths total          872
+exploration/path length Mean          23.8095
+exploration/path length Std            3.06468
+exploration/path length Max           35
+exploration/path length Min           13
+exploration/Rewards Mean               1.72792
+exploration/Rewards Std                0.461303
+exploration/Rewards Max                2.65777
+exploration/Rewards Min                1.00809
+exploration/Returns Mean              41.1409
+exploration/Returns Std                5.24146
+exploration/Returns Max               60.3164
+exploration/Returns Min               19.1734
+exploration/Actions Mean               0.780086
+exploration/Actions Std                0.310921
+exploration/Actions Max                1
+exploration/Actions Min               -0.971116
+exploration/Num Paths                 42
+exploration/Average Returns           41.1409
+evaluation/num steps total          7825
+evaluation/num paths total           320
+evaluation/path length Mean           22.1556
+evaluation/path length Std             0.419288
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.75558
+evaluation/Rewards Std                 0.462385
+evaluation/Rewards Max                 2.41058
+evaluation/Rewards Min                 1.00801
+evaluation/Returns Mean               38.8959
+evaluation/Returns Std                 0.694225
+evaluation/Returns Max                40.5212
+evaluation/Returns Min                37.0811
+evaluation/Actions Mean                1
+evaluation/Actions Std                 4.65833e-07
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.999996
+evaluation/Num Paths                  45
+evaluation/Average Returns            38.8959
+time/data storing (s)                  0.00339812
+time/evaluation sampling (s)           0.369979
+time/exploration sampling (s)          0.376572
+time/logging (s)                       0.00405821
+time/saving (s)                        0.00141463
+time/training (s)                      5.93014
+time/epoch (s)                         6.68557
+time/total (s)                        58.9287
+Epoch                                  7
+---------------------------------  ---------------
+2021-07-03 21:52:22.546157 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 8 finished
+---------------------------------  ---------------
+replay_buffer/size                 19000
+trainer/QF Loss                        0.00112333
+trainer/Policy Loss                  -27.9934
+trainer/Raw Policy Loss              -27.9934
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            27.6339
+trainer/Q Predictions Std             13.4445
+trainer/Q Predictions Max             61.3743
+trainer/Q Predictions Min             -3.14468
+trainer/Q Targets Mean                27.8722
+trainer/Q Targets Std                 13.6211
+trainer/Q Targets Max                 62.1748
+trainer/Q Targets Min                 -2.18636
+trainer/Bellman Errors Mean            2.64719
+trainer/Bellman Errors Std            12.5349
+trainer/Bellman Errors Max           144.349
+trainer/Bellman Errors Min             2.18013e-05
+trainer/Policy Action Mean             1
+trainer/Policy Action Std              2.60992e-07
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.999997
+exploration/num steps total        19000
+exploration/num paths total          914
+exploration/path length Mean          23.8095
+exploration/path length Std            4.01923
+exploration/path length Max           35
+exploration/path length Min            7
+exploration/Rewards Mean               1.72627
+exploration/Rewards Std                0.453627
+exploration/Rewards Max                2.63754
+exploration/Rewards Min                1.00998
+exploration/Returns Mean              41.1016
+exploration/Returns Std                6.97262
+exploration/Returns Max               56.786
+exploration/Returns Min                7.66528
+exploration/Actions Mean               0.799871
+exploration/Actions Std                0.311951
+exploration/Actions Max                1
+exploration/Actions Min               -1
+exploration/Num Paths                 42
+exploration/Average Returns           41.1016
+evaluation/num steps total          8819
+evaluation/num paths total           365
+evaluation/path length Mean           22.0889
+evaluation/path length Std             0.589622
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.75815
+evaluation/Rewards Std                 0.462921
+evaluation/Rewards Max                 2.41434
+evaluation/Rewards Min                 1.00751
+evaluation/Returns Mean               38.8357
+evaluation/Returns Std                 0.960291
+evaluation/Returns Max                40.5086
+evaluation/Returns Min                36.8666
+evaluation/Actions Mean                1
+evaluation/Actions Std                 2.64334e-07
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.999997
+evaluation/Num Paths                  45
+evaluation/Average Returns            38.8357
+time/data storing (s)                  0.00331613
+time/evaluation sampling (s)           0.367987
+time/exploration sampling (s)          0.361203
+time/logging (s)                       0.00443713
+time/saving (s)                        0.00189941
+time/training (s)                      5.79911
+time/epoch (s)                         6.53796
+time/total (s)                        65.4681
+Epoch                                  8
+---------------------------------  ---------------
+2021-07-03 21:52:29.071688 CST | [test viskit using dsfpg-rec_2021_07_03_21_51_17_0000--s-0] Epoch 9 finished
+---------------------------------  ---------------
+replay_buffer/size                 20000
+trainer/QF Loss                        0.000677345
+trainer/Policy Loss                  -27.3655
+trainer/Raw Policy Loss              -27.3655
+trainer/Preactivation Policy Loss      0
+trainer/Q Predictions Mean            26.4089
+trainer/Q Predictions Std             12.3148
+trainer/Q Predictions Max             53.0585
+trainer/Q Predictions Min             -2.69197
+trainer/Q Targets Mean                26.4466
+trainer/Q Targets Std                 12.369
+trainer/Q Targets Max                 51.886
+trainer/Q Targets Min                 -0.53534
+trainer/Bellman Errors Mean            2.38649
+trainer/Bellman Errors Std            10.967
+trainer/Bellman Errors Max           122.653
+trainer/Bellman Errors Min             3.23067e-07
+trainer/Policy Action Mean             1
+trainer/Policy Action Std              1.26477e-07
+trainer/Policy Action Max              1
+trainer/Policy Action Min              0.999999
+exploration/num steps total        20000
+exploration/num paths total          955
+exploration/path length Mean          24.3902
+exploration/path length Std            6.77829
+exploration/path length Max           59
+exploration/path length Min            8
+exploration/Rewards Mean               1.68391
+exploration/Rewards Std                0.472614
+exploration/Rewards Max                2.67464
+exploration/Rewards Min                0.792213
+exploration/Returns Mean              41.0709
+exploration/Returns Std                8.73526
+exploration/Returns Max               80.2535
+exploration/Returns Min                8.6278
+exploration/Actions Mean               0.785982
+exploration/Actions Std                0.335313
+exploration/Actions Max                1
+exploration/Actions Min               -1
+exploration/Num Paths                 41
+exploration/Average Returns           41.0709
+evaluation/num steps total          9808
+evaluation/num paths total           410
+evaluation/path length Mean           21.9778
+evaluation/path length Std             0.576922
+evaluation/path length Max            23
+evaluation/path length Min            21
+evaluation/Rewards Mean                1.75744
+evaluation/Rewards Std                 0.463248
+evaluation/Rewards Max                 2.4148
+evaluation/Rewards Min                 1.00919
+evaluation/Returns Mean               38.6247
+evaluation/Returns Std                 0.920234
+evaluation/Returns Max                40.5056
+evaluation/Returns Min                36.9531
+evaluation/Actions Mean                1
+evaluation/Actions Std                 1.55693e-07
+evaluation/Actions Max                 1
+evaluation/Actions Min                 0.999999
+evaluation/Num Paths                  45
+evaluation/Average Returns            38.6247
+time/data storing (s)                  0.00327134
+time/evaluation sampling (s)           0.353965
+time/exploration sampling (s)          0.349036
+time/logging (s)                       0.00406053
+time/saving (s)                        0.00133612
+time/training (s)                      5.81138
+time/epoch (s)                         6.52305
+time/total (s)                        71.9929
+Epoch                                  9
+---------------------------------  ---------------
